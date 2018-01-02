@@ -6,7 +6,7 @@
 	<title>Websockets</title>
 	<authors>Daniel Beus</authors>
 	<owners>Daniel Beus</owners>
-	<projectUrl>https://github.com/legacybass/Settings</projectUrl>
+	<projectUrl>https://github.com/legacybass/websockets</projectUrl>
 	<iconUrl>https://avatars1.githubusercontent.com/u/1490142?s=400&amp;v=4</iconUrl>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<description>A conventions based library for creating web sockets in ASP.Net Core</description>
