@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata>
+	<id>Mindfire.WebSockets</id>
+	<version>1.0.0-alpha1</version>
+	<title>Websockets</title>
+	<authors>Daniel Beus</authors>
+	<owners>Daniel Beus</owners>
+	<projectUrl>https://github.com/legacybass/Settings</projectUrl>
+	<iconUrl>https://avatars1.githubusercontent.com/u/1490142?s=400&amp;v=4</iconUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>A conventions based library for creating web sockets in ASP.Net Core</description>
+	<releaseNotes>Initial Release</releaseNotes>
+	<copyright>Copyright 2017</copyright>
+	<tags>web sockets</tags>
+
+	<dependencies>
+		<dependency id="Microsoft.AspNetCore.Authorization.Policy" version="2.0.1" />
+		<dependency id="Microsoft.AspNetCore.Http.Abstractions" version="2.0.1" />
+		<dependency id="Microsoft.AspNetCore.Routing" version="2.0.1" />
+		<dependency id="Microsoft.AspNetCore.WebSockets" version="2.0.1" />
+		<dependency id="Microsoft.Extensions.DependencyInjection" version="2.0.0" />
+		<dependency id="Newtonsoft.Json" version="10.0.3" />
+		<dependency id="NETStandard.Library" version="2.0.0" />
+	</dependencies>
+  </metadata>
+
+	<files>
+		<file src="bin\Release\netstandard2.0\WebSockets.dll" target="lib\netstandard2.0\WebSockets.dll" />
+	</files>
+</package>
